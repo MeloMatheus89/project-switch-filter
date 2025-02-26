@@ -1,8 +1,8 @@
-import React, { useState, useMemo } from 'react';
-import { Network } from 'lucide-react';
-import { FilterPanel } from './components/FilterPanel';
-import { SwitchCard } from './components/SwitchCard';
-import { mockSwitches } from './types';
+import React, { useState, useMemo } from "react";
+import { Network } from "lucide-react";
+import { FilterPanel } from "./components/FilterPanel";
+import { SwitchCard } from "./components/SwitchCard";
+import { mockSwitches } from "./types";
 
 function App() {
   const [portCount, setPortCount] = useState(1);
@@ -10,10 +10,9 @@ function App() {
   const [hasManagement, setHasManagement] = useState(false);
 
   const filteredSwitches = useMemo(() => {
-    return mockSwitches.filter(sw => 
-      sw.ports >= portCount &&
-      (!hasPoe || sw.hasPoe) &&
-      (!hasManagement || sw.hasManagement)
+    return mockSwitches.filter(
+      (sw) =>
+        sw.ports >= portCount && (!hasPoe || sw.hasPoe) && (!hasManagement || sw.hasManagement)
     );
   }, [portCount, hasPoe, hasManagement]);
 
@@ -38,13 +37,11 @@ function App() {
               setHasManagement={setHasManagement}
             />
           </div>
-          
+
           <div className="lg:col-span-3">
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
               {filteredSwitches.length > 0 ? (
-                filteredSwitches.map(sw => (
-                  <SwitchCard key={sw.id} switch={sw} />
-                ))
+                filteredSwitches.map((sw) => <SwitchCard key={sw.id} switch={sw} />)
               ) : (
                 <div className="col-span-full text-center py-12">
                   <p className="text-gray-500 text-lg">
@@ -59,12 +56,8 @@ function App() {
 
       <footer className="bg-navy-900 text-white py-4 px-4 mt-auto">
         <div className="max-w-7xl mx-auto text-center">
-          <p className="text-sm">
-            Desenvolvido por: Matheus Ferreira de Melo
-          </p>
-          <p className="text-sm text-navy-200">
-            Contato: matheusmelo@hotmail.com.br
-          </p>
+          <p className="text-sm">Desenvolvido por: Matheus Ferreira de Melo</p>
+          <p className="text-sm text-navy-200">Contato: matheusmelo@hotmail.com.br</p>
         </div>
       </footer>
     </div>
