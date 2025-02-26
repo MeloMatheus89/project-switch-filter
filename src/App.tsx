@@ -14,6 +14,7 @@ function App() {
       (sw) =>
         sw.ports >= portCount && (!hasPoe || sw.hasPoe) && (!hasManagement || sw.hasManagement)
     );
+    //to do: Implement the sort function here
   }, [portCount, hasPoe, hasManagement]);
 
   return (
