@@ -1,4 +1,4 @@
-# Project: Switch Filter Tool (English, Portuguese will be on the end of the file)
+# Project: Switch Filter Tool (English, Portuguese (BR) will be on the end of the file)
 
 ## Overview
 
