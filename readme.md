@@ -41,20 +41,9 @@ To get started with Project Bolt, follow these steps:
 
 After starting the development server, you can access the application at `http://localhost:5173`.
 
-## Contributing
-
-We welcome contributions! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a pull request.
-
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details. All the models listeds are properties of Intelbras and Intelbras Only.
 
 ## Contact
 
@@ -80,46 +69,35 @@ Eu recomendo usar bolt para pequenas ferramentas, mas fique ciente que ela não 
 - **Vite-Powered**: Construção rápida e trocas hot-swap com Vite.
 - **Modern Architecture**: Projetado para escalabilidade e manutenção rápida.
 
-## Installation
+## Instalação
 
-To get started with Project Bolt, follow these steps:
+Para iniciar o projeto, siga os seguintes passos:
 
-1. **Clone the repository**:
+1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/yourusername/project-bolt.git
+   git clone https://github.com/MeloMatheus89/project.git
    ```
-2. **Navigate to the project directory**:
+2. **Abra o diretório**:
    ```bash
-   cd project-bolt
+   cd project
    ```
-3. **Install dependencies**:
+3. **Instale as dependências**:
    ```bash
    npm install
    ```
-4. **Start the development server**:
+4. **Inicie o servidor**:
    ```bash
    npm run dev
    ```
 
 ## Usage
 
-After starting the development server, you can access the application at `http://localhost:5173`.
-
-## Contributing
-
-We welcome contributions! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a pull request.
+Após iniicar o servidor, você conseguirá acessar a página através do endereço: `http://localhost:5173`.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details. Todos os modelos listados são propriedades da Intelbras e apenas dela.
 
-## Contact
+## Contato
 
-For any questions or suggestions, please open an issue or contact us at [matheusmelo@hotmail.com.br].
+Se tiver alguma questão ou contribuição, não exite em me procurar no e-mail: [matheusmelo@hotmail.com.br].
