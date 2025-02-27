@@ -22,7 +22,7 @@ To get started with Project Bolt, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/project-bolt.git
+   git clone https://github.com/MatheusMelo89/project-switch-filter.git
    ```
 2. **Navigate to the project directory**:
    ```bash
@@ -75,7 +75,7 @@ Para iniciar o projeto, siga os seguintes passos:
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/MeloMatheus89/project.git
+   git clone https://github.com/MeloMatheus89/project-switch-filter.git
    ```
 2. **Abra o diretório**:
    ```bash
@@ -90,9 +90,9 @@ Para iniciar o projeto, siga os seguintes passos:
    npm run dev
    ```
 
-## Usage
+## Usando
 
-Após iniicar o servidor, você conseguirá acessar a página através do endereço: `http://localhost:5173`.
+Após iniciar o servidor, você conseguirá acessar a página através do endereço: `http://localhost:5173`.
 
 ## License
 
