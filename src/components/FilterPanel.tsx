@@ -18,7 +18,7 @@ export function FilterPanel({
   hasManagement,
   setHasManagement,
 }: FilterPanelProps) {
-  // Common port counts for network switches
+  // Quantidade de portas de um switch. Números comuns.
   const portOptions = [4, 8, 16, 24, 48];
 
   return (

@@ -15,10 +15,11 @@ function App() {
         (sw) =>
           sw.ports >= portCount && (!hasPoe || sw.hasPoe) && (!hasManagement || sw.hasManagement)
       )
-      .sort((a, b) => a.ports - b.ports); // Sort by port count in ascending order
+      .sort((a, b) => a.ports - b.ports); // Organiza a ordem dos cartões pela quantidade de portas  do switch.
   }, [portCount, hasPoe, hasManagement]);
 
   return (
+    // cabeçalho da pagina
     <div className="min-h-screen bg-gray-50 flex flex-col">
       <header className="bg-navy-900 text-white py-6 px-4 shadow-lg">
         <div className="max-w-7xl mx-auto flex items-center space-x-3">
@@ -27,7 +28,7 @@ function App() {
           <h2 className="text-2xl">Encontre o switch ideal</h2>
         </div>
       </header>
-
+      {/* Conteúdo principal  */}
       <main className="max-w-7xl mx-auto px-4 py-8 flex-grow">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
           <div className="lg:col-span-1">
@@ -40,7 +41,7 @@ function App() {
               setHasManagement={setHasManagement}
             />
           </div>
-
+          {/*Lista de switches filtrados*/}
           <div className="lg:col-span-3">
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
               {filteredSwitches.length > 0 ? (
@@ -56,7 +57,7 @@ function App() {
           </div>
         </div>
       </main>
-
+      {/* Rodapé */}
       <footer className="bg-navy-900 text-white py-4 px-4 mt-auto">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-sm">Desenvolvido por: Matheus Ferreira de Melo</p>
