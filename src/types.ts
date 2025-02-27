@@ -214,7 +214,7 @@ export const mockSwitches: Switch[] = [
     hasPoe: false,
     hasManagement: true,
     imageUrl:
-      "https://images.unsplash.com/photo-1647427017067-8f33c2159764?auto=format&fit=crop&q=80&w=600",
+      "https://backend.intelbras.com/sites/default/files/styles/medium/public/2024-04/s2352g-b-04.png",
     description:
       "Switch gerenciável com 48 portas Gigabit e 4 portas SFP+ (10Gbps). Ideal para grandes empresas.",
   },
@@ -225,7 +225,7 @@ export const mockSwitches: Switch[] = [
     hasPoe: false,
     hasManagement: true,
     imageUrl:
-      "https://images.unsplash.com/photo-1647427017067-8f33c2159764?auto=format&fit=crop&q=80&w=600",
+      "https://backend.intelbras.com/sites/default/files/styles/medium/public/2024-06/s2310g-a-01.png",
     description:
       "Switch gerenciável com 8 portas Gigabit e 2 portas SFP. Ideal para pequenas empresas.",
   },
@@ -237,9 +237,9 @@ export const mockSwitches: Switch[] = [
     hasPoe: false,
     hasManagement: true,
     imageUrl:
-      "https://images.unsplash.com/photo-1647427017067-8f33c2159764?auto=format&fit=crop&q=80&w=600",
+      "https://backend.intelbras.com/sites/default/files/styles/medium/public/2024-04/s2328g-a-frontal-1.png",
     description:
-      "Switch gerenciável com 24 portas Gigabit e 4 portas SFP . Ideal para grandes empresas.",
+      "Switch gerenciável com 24 portas Gigabit e 4 portas SFP. Ideal para grandes empresas.",
   },
   {
     id: "23",
@@ -248,7 +248,7 @@ export const mockSwitches: Switch[] = [
     hasPoe: false,
     hasManagement: true,
     imageUrl:
-      "https://images.unsplash.com/photo-1647427017067-8f33c2159764?auto=format&fit=crop&q=80&w=600",
+      "https://backend.intelbras.com/sites/default/files/styles/medium/public/2024-06/s2352g-a-03.png",
     description:
       "Switch gerenciável com 48 portas Gigabit e 4 portas SFP. Ideal para grandes empresas.",
   },
@@ -259,7 +259,7 @@ export const mockSwitches: Switch[] = [
     hasPoe: true,
     hasManagement: true,
     imageUrl:
-      "https://images.unsplash.com/photo-1647427017067-8f33c2159764?auto=format&fit=crop&q=80&w=600",
+      "https://backend.intelbras.com/sites/default/files/styles/medium/public/2024-04/s2328g-pb-04.png",
     description:
       "Switch gerenciável com 24 portas Gigabit e PoE e 4 portas SFP+ (10Gbps). Ideal para grandes empresas.",
   },
@@ -270,21 +270,11 @@ export const mockSwitches: Switch[] = [
     hasPoe: true,
     hasManagement: true,
     imageUrl:
-      "https://images.unsplash.com/photo-1647427017067-8f33c2159764?auto=format&fit=crop&q=80&w=600",
+      "https://backend.intelbras.com/sites/default/files/styles/medium/public/2023-12/S2328g-pa.png",
     description:
       "Switch gerenciável com 24 portas Gigabit e PoE e 4 portas SFP. Ideal para grandes empresas.",
   },
-  {
-    id: "25",
-    model: "S2328G-PA",
-    ports: 24,
-    hasPoe: true,
-    hasManagement: true,
-    imageUrl:
-      "https://images.unsplash.com/photo-1647427017067-8f33c2159764?auto=format&fit=crop&q=80&w=600",
-    description:
-      "Switch gerenciável com 24 portas Gigabit e PoE e 4 portas SFP. Ideal para grandes empresas.",
-  },
+
   {
     id: "26",
     model: "S2328G-B",
@@ -292,7 +282,7 @@ export const mockSwitches: Switch[] = [
     hasPoe: false,
     hasManagement: true,
     imageUrl:
-      "https://images.unsplash.com/photo-1647427017067-8f33c2159764?auto=format&fit=crop&q=80&w=600",
+      "https://backend.intelbras.com/sites/default/files/styles/medium/public/2024-04/s2328g-b-03.png",
     description:
       "Switch gerenciável com 24 portas Gigabit e 4 portas SFP+ (10Gbps). Ideal para grandes empresas.",
   },
@@ -303,7 +293,7 @@ export const mockSwitches: Switch[] = [
     hasPoe: true,
     hasManagement: true,
     imageUrl:
-      "https://images.unsplash.com/photo-1647427017067-8f33c2159764?auto=format&fit=crop&q=80&w=600",
+      "https://backend.intelbras.com/sites/default/files/styles/medium/public/2024-04/s2352g-pb-04.png",
     description:
       "Switch gerenciável com 48 portas Gigabit e PoE e 4 portas SFP+ (10Gbps). Ideal para grandes empresas.",
   },
@@ -314,7 +304,7 @@ export const mockSwitches: Switch[] = [
     hasPoe: true,
     hasManagement: true,
     imageUrl:
-      "https://images.unsplash.com/photo-1647427017067-8f33c2159764?auto=format&fit=crop&q=80&w=600",
+      "https://backend.intelbras.com/sites/default/files/styles/medium/public/2024-03/s3352g-pb-frontal-sup.png",
     description:
       "Switch gerenciável com protocolos de roteamento (camada 3) com 48 portas Gigabit e PoE e 4 portas SFP+ (10Gbps). Ideal para grandes empresas.",
   },
