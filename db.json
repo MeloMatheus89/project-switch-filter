@@ -1,0 +1,382 @@
+[
+  {
+    "id": 1,
+    "modelo": "S1105G-P",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1105G-P",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 4,
+      "velocidadeDaPorta": 1000,
+      "qtdPortasUplink": 1,
+      "qtdPortasSFP": 0,
+      "poe": true,
+      "potenciaPoE": 60,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  },
+  {
+    "id": 2,
+    "modelo": "S1105G",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1105G",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 4,
+      "velocidadeDaPorta": 1000,
+      "qtdPortasUplink": 1,
+      "qtdPortasSFP": 0,
+      "poe": false,
+      "potenciaPoE": 0,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  },
+  {
+    "id": 3,
+    "modelo": "S1105F-P",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1105F-P",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 4,
+      "velocidadeDaPorta": 100,
+      "qtdPortasUplink": 1,
+      "qtdPortasSFP": 0,
+      "poe": true,
+      "potenciaPoE": 60,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  },
+  {
+    "id": 4,
+    "modelo": "S1110G-PA",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1110G-PA",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 8,
+      "velocidadeDaPorta": 1000,
+      "qtdPortasUplink": 2,
+      "qtdPortasSFP": 1,
+      "poe": true,
+      "potenciaPoE": 60,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  },
+  {
+    "id": 5,
+    "modelo": "S1116F",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1116F",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 16,
+      "velocidadeDaPorta": 100,
+      "qtdPortasUplink": 0,
+      "qtdPortasSFP": 0,
+      "poe": false,
+      "potenciaPoE": 0,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  },
+  {
+    "id": 6,
+    "modelo": "S1118F-PA",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1118F-PA",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 16,
+      "velocidadeDaPorta": 100,
+      "qtdPortasUplink": 2,
+      "qtdPortasSFP": 2,
+      "poe": true,
+      "potenciaPoE": 125,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  },
+  {
+    "id": 7,
+    "modelo": "S1126F-PA",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1126F-PA",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 24,
+      "velocidadeDaPorta": 100,
+      "qtdPortasUplink": 2,
+      "qtdPortasSFP": 2,
+      "poe": true,
+      "potenciaPoE": 265,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  },
+  {
+    "id": 8,
+    "modelo": "S1126F-HPA",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1126F-HPA",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 24,
+      "velocidadeDaPorta": 100,
+      "qtdPortasUplink": 2,
+      "qtdPortasSFP": 2,
+      "poe": true,
+      "potenciaPoE": 265,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  },
+  {
+    "id": 9,
+    "modelo": "S1120G-PA",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1120G-PA",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 16,
+      "velocidadeDaPorta": 100,
+      "qtdPortasUplink": 2,
+      "qtdPortasSFP": 2,
+      "poe": true,
+      "potenciaPoE": 265,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  },
+  {
+    "id": 10,
+    "modelo": "S1124G",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1124G",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 24,
+      "velocidadeDaPorta": 1000,
+      "qtdPortasUplink": 0,
+      "qtdPortasSFP": 0,
+      "poe": true,
+      "potenciaPoE": 0,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  },
+  {
+    "id": 11,
+    "modelo": "S1128G-PA",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1128G-PA",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 24,
+      "velocidadeDaPorta": 1000,
+      "qtdPortasUplink": 2,
+      "qtdPortasSFP": 2,
+      "poe": true,
+      "potenciaPoE": 246.21,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  },
+  {
+    "id": 12,
+    "modelo": "S1116G",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1116G",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 16,
+      "velocidadeDaPorta": 1000,
+      "qtdPortasUplink": 0,
+      "qtdPortasSFP": 0,
+      "poe": true,
+      "potenciaPoE": 0,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  },
+  {
+    "id": 13,
+    "modelo": "S1010G-PA",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1010G-PA",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 8,
+      "velocidadeDaPorta": 1000,
+      "qtdPortasUplink": 0,
+      "qtdPortasSFP": 0,
+      "poe": true,
+      "potenciaPoE": 92,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  },
+  {
+    "id": 14,
+    "modelo": "S1018G-PA",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1018G-PA",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 16,
+      "velocidadeDaPorta": 1000,
+      "qtdPortasUplink": 2,
+      "qtdPortasSFP": 2,
+      "poe": true,
+      "potenciaPoE": 0,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  },
+  {
+    "id": 15,
+    "modelo": "S1005G",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1005G",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 4,
+      "velocidadeDaPorta": 1000,
+      "qtdPortasUplink": 1,
+      "qtdPortasSFP": 0,
+      "poe": true,
+      "potenciaPoE": 58,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  },
+  {
+    "id": 16,
+    "modelo": "S1010F-P",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1010F-P",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 8,
+      "velocidadeDaPorta": 100,
+      "qtdPortasUplink": 2,
+      "qtdPortasSFP": 1,
+      "poe": true,
+      "potenciaPoE": 58,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  },
+  {
+    "id": 17,
+    "modelo": "S1016G",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1016G",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 16,
+      "velocidadeDaPorta": 1000,
+      "qtdPortasUplink": 0,
+      "qtdPortasSFP": 0,
+      "poe": false,
+      "potenciaPoE": 0,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  },
+  {
+    "id": 18,
+    "modelo": "S1026F-P",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1026F-P",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 24,
+      "velocidadeDaPorta": 100,
+      "qtdPortasUplink": 0,
+      "qtdPortasSFP": 0,
+      "poe": true,
+      "potenciaPoE": 0,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  },
+  {
+    "id": 19,
+    "modelo": "S1005G",
+    "tipoEquipamento": "SWITCH",
+    "datasheet": {
+      "emLinha": true,
+      "descricao": "S1005G",
+      "fabricante": "Intelbras",
+      "tipo": "Não Gerenciável",
+      "gerenciavel": false,
+      "camada": 1,
+      "qtdPortas": 5,
+      "velocidadeDaPorta": 1000,
+      "qtdPortasUplink": 0,
+      "qtdPortasSFP": 0,
+      "poe": true,
+      "potenciaPoE": 0,
+      "urlImagem": "PROCURAR DEPOIS"
+    }
+  }
+]

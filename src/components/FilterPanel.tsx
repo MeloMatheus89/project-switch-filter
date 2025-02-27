@@ -56,7 +56,7 @@ export function FilterPanel({
             ))}
           </div>
           <p className="text-sm text-gray-600 mt-3 text-center">
-            Mostrando switches com {portCount}+ portas
+            Mostrando switches com <strong>{portCount} </strong>ou mais portas
           </p>
         </div>
 

@@ -5,16 +5,17 @@ import { SwitchCard } from "./components/SwitchCard";
 import { mockSwitches } from "./types";
 
 function App() {
-  const [portCount, setPortCount] = useState(1);
+  const [portCount, setPortCount] = useState(4);
   const [hasPoe, setHasPoe] = useState(false);
   const [hasManagement, setHasManagement] = useState(false);
 
   const filteredSwitches = useMemo(() => {
-    return mockSwitches.filter(
-      (sw) =>
-        sw.ports >= portCount && (!hasPoe || sw.hasPoe) && (!hasManagement || sw.hasManagement)
-    );
-    //to do: Implement the sort function here
+    return mockSwitches
+      .filter(
+        (sw) =>
+          sw.ports >= portCount && (!hasPoe || sw.hasPoe) && (!hasManagement || sw.hasManagement)
+      )
+      .sort((a, b) => a.ports - b.ports); // Sort by port count in ascending order
   }, [portCount, hasPoe, hasManagement]);
 
   return (
@@ -22,7 +23,8 @@ function App() {
       <header className="bg-navy-900 text-white py-6 px-4 shadow-lg">
         <div className="max-w-7xl mx-auto flex items-center space-x-3">
           <Network className="w-8 h-8" />
-          <h1 className="text-2xl font-bold">Switch Finder</h1>
+          <h1 className="text-2xl font-bold">Localizador de Switches</h1>
+          <h2 className="text-2xl">Encontre o switch ideal</h2>
         </div>
       </header>
 
