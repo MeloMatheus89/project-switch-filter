@@ -59,7 +59,7 @@ export const mockSwitches: Switch[] = [
     hasManagement: false,
     imageUrl:
       "https://backend.intelbras.com/sites/default/files/styles/medium/public/2024-06/s1118f-pa-01.png",
-    description: "Switch não gerenciável com PoE e SFP para pequenas e méidas redes",
+    description: "Switch não gerenciável com PoE e SFP para pequenas e médias redes",
   },
   {
     id: "6",
