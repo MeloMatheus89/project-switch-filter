@@ -1,5 +1,5 @@
 import React from "react";
-import { Wifi, Smartphone, Maximize2 } from "lucide-react";
+import { Wifi } from "lucide-react";
 
 interface AccessPointFilterPanelProps {
   wifiStandard: string;
@@ -18,9 +18,9 @@ export function AccessPointFilterPanel({
   minDevices,
   setMinDevices,
 }: AccessPointFilterPanelProps) {
-  const wifiStandards = ["All", "Wi-Fi 4", "Wi-Fi 5", "Wi-Fi 6", "Wi-Fi 6E"];
+  const wifiStandards = ["All", "Wi-Fi 4", "Wi-Fi 5", "Wi-Fi 6", "Wi-Fi 7"];
   const environments = ["All", "Indoor", "Outdoor"];
-  const deviceOptions = [50, 100, 200, 300, 500];
+  const deviceOptions = [100, 200, 300, 500];
 
   return (
     <div className="bg-white rounded-lg shadow-lg p-6 mb-6">

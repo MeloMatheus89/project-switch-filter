@@ -11,9 +11,9 @@ export interface Switch {
 export interface AccessPoint {
   id: string | number;
   model: string;
-  wifiStandard: 'Wi-Fi 4' | 'Wi-Fi 5' | 'Wi-Fi 6' | 'Wi-Fi 6E';
-  environment: 'Indoor' | 'Outdoor';
-  frequencyBands: ('2.4GHz' | '5GHz' | '6GHz')[];
+  wifiStandard: "Wi-Fi 4" | "Wi-Fi 5" | "Wi-Fi 6" | "Wi-Fi 6E";
+  environment: "Indoor" | "Outdoor";
+  frequencyBands: ("2.4GHz" | "5GHz" | "6GHz")[];
   maxDevices: number;
   maxThroughput: number; // in Mbps
   coverage: {
@@ -309,131 +309,141 @@ export const mockSwitches: Switch[] = [
 
 export const mockAccessPoints: AccessPoint[] = [
   {
-    id: '1',
-    model: 'AP 310',
-    wifiStandard: 'Wi-Fi 4',
-    environment: 'Indoor',
-    frequencyBands: ['2.4GHz'],
+    id: "1",
+    model: "AP 310",
+    wifiStandard: "Wi-Fi 4",
+    environment: "Indoor",
+    frequencyBands: ["2.4GHz"],
     maxDevices: 100,
     maxThroughput: 100,
     coverage: {
       indoor: 200,
-      outdoor: 0
+      outdoor: 0,
     },
     poe: true,
-    imageUrl: 'https://images.unsplash.com/photo-1632765854612-9b02b6ec2b15?auto=format&fit=crop&q=80&w=600',
-    description: 'Access Point Wi-Fi 4 para pequenos ambientes'
+    imageUrl:
+      "https://backend.intelbras.com/sites/default/files/styles/medium/public/2023-01/ap-360-front.png",
+    description: "Access Point Wi-Fi 4 para pequenos ambientes",
   },
   {
-    id: '2',
-    model: 'AP 360',
-    wifiStandard: 'Wi-Fi 4',
-    environment: 'Indoor',
-    frequencyBands: ['2.4GHz'],
+    id: "2",
+    model: "AP 360",
+    wifiStandard: "Wi-Fi 4",
+    environment: "Indoor",
+    frequencyBands: ["2.4GHz"],
     maxDevices: 100,
     maxThroughput: 100,
     coverage: {
       indoor: 400,
-      outdoor: 0
+      outdoor: 0,
     },
     poe: true,
-    imageUrl: 'https://images.unsplash.com/photo-1647427017067-8f33c2159764?auto=format&fit=crop&q=80&w=600',
-    description: 'Access Point Wi-Fi 4 para médios ambientes'
+    imageUrl:
+      "https://backend.intelbras.com/sites/default/files/styles/medium/public/2023-01/ap-360-front.png",
+    description: "Access Point Wi-Fi 4 para médios ambientes",
   },
   {
-    id: '3',
-    model: 'AP 1250 AC MAX',
-    wifiStandard: 'Wi-Fi 5',
-    environment: 'Indoor',
-    frequencyBands: ['2.4GHz', '5GHz'],
+    id: "3",
+    model: "AP 1250 AC MAX",
+    wifiStandard: "Wi-Fi 5",
+    environment: "Indoor",
+    frequencyBands: ["2.4GHz", "5GHz"],
     maxDevices: 350,
     maxThroughput: 500,
     coverage: {
       indoor: 450,
-      outdoor: 0
+      outdoor: 0,
     },
     poe: true,
-    imageUrl: 'https://images.unsplash.com/photo-1636389657137-97aba60026a1?auto=format&fit=crop&q=80&w=600',
-    description: 'Access Point Wi-Fi 5 com Handover para pequenas e médias empresas'
+    imageUrl:
+      "https://backend.intelbras.com/sites/default/files/styles/medium/public/2022-04/ap-1250-ac-max-front_0.png",
+    description: "Access Point Wi-Fi 5 com Handover para pequenas e médias empresas",
   },
   {
-    id: '4',
-    model: 'AP 1250 AC OUTDOOR',
-    wifiStandard: 'Wi-Fi 5',
-    environment: 'Outdoor',
-    frequencyBands: ['2.4GHz', '5GHz'],
+    id: "4",
+    model: "AP 1250 AC OUTDOOR",
+    wifiStandard: "Wi-Fi 5",
+    environment: "Outdoor",
+    frequencyBands: ["2.4GHz", "5GHz"],
     maxDevices: 350,
     maxThroughput: 500,
     coverage: {
       indoor: 0,
-      outdoor: 450
+      outdoor: 450,
     },
     poe: true,
-    imageUrl: 'https://images.unsplash.com/photo-1636389657137-97aba60026a1?auto=format&fit=crop&q=80&w=600',
-    description: 'Access Point Wi-Fi 5 com Handover para pequenas e médias empresas para ambientes externos'
+    imageUrl:
+      "https://backend.intelbras.com/sites/default/files/styles/medium/public/2023-06/render-AP-1250--AC-Outdoor-%2B-frontal.png",
+    description:
+      "Access Point Wi-Fi 5 com Handover para pequenas e médias empresas para ambientes externos",
   },
   {
-    id: '5',
-    model: 'AP 1350 AC-S',
-    wifiStandard: 'Wi-Fi 5',
-    environment: 'Indoor',
-    frequencyBands: ['2.4GHz', '5GHz'],
+    id: "5",
+    model: "AP 1350 AC-S",
+    wifiStandard: "Wi-Fi 5",
+    environment: "Indoor",
+    frequencyBands: ["2.4GHz", "5GHz"],
     maxDevices: 350,
     maxThroughput: 500,
     coverage: {
       indoor: 450,
-      outdoor: 0
+      outdoor: 0,
     },
     poe: true,
-    imageUrl: 'https://images.unsplash.com/photo-1636389657137-97aba60026a1?auto=format&fit=crop&q=80&w=600',
-    description: 'Access Point Wi-Fi 5 com Handover para pequenas e médias empresas'
+    imageUrl:
+      "https://backend.intelbras.com/sites/default/files/styles/medium/public/2022-04/ap-1350-ac-s-front.png",
+    description: "Access Point Wi-Fi 5 com Handover para pequenas e médias empresas",
   },
   {
-    id: '6',
-    model: 'AP 1800 AX MAX',
-    wifiStandard: 'Wi-Fi 6',
-    environment: 'Indoor',
-    frequencyBands: ['2.4GHz', '5GHz'],
-    maxDevices: 350,
+    id: "6",
+    model: "AP 1800 AX",
+    wifiStandard: "Wi-Fi 6",
+    environment: "Indoor",
+    frequencyBands: ["2.4GHz", "5GHz"],
+    maxDevices: 256,
     maxThroughput: 600,
     coverage: {
       indoor: 450,
-      outdoor: 0
+      outdoor: 0,
     },
     poe: true,
-    imageUrl: 'https://images.unsplash.com/photo-1636389657137-97aba60026a1?auto=format&fit=crop&q=80&w=600',
-    description: 'Access Point Wi-Fi 6 com Handover para pequenas e médias empresas'
+    imageUrl:
+      "https://backend.intelbras.com/sites/default/files/styles/medium/public/2023-09/ap-1800-ax-frontal.png",
+    description: "Access Point Wi-Fi 6 com Handover para pequenas e médias empresas",
   },
   {
-    id: '7',
-    model: 'AP 3000 AX',
-    wifiStandard: 'Wi-Fi 5',
-    environment: 'Indoor',
-    frequencyBands: ['2.4GHz', '5GHz'],
-    maxDevices: 350,
+    id: "7",
+    model: "AP 3000 AX",
+    wifiStandard: "Wi-Fi 5",
+    environment: "Indoor",
+    frequencyBands: ["2.4GHz", "5GHz"],
+    maxDevices: 256,
     maxThroughput: 1000,
     coverage: {
       indoor: 450,
-      outdoor: 0
+      outdoor: 0,
     },
     poe: true,
-    imageUrl: 'https://images.unsplash.com/photo-1636389657137-97aba60026a1?auto=format&fit=crop&q=80&w=600',
-    description: 'Access Point Wi-Fi 6 com Handover para pequenas e médias empresas'
+    imageUrl:
+      "https://backend.intelbras.com/sites/default/files/styles/medium/public/2023-09/ap-1800-ax-frontal.png",
+    description: "Access Point Wi-Fi 6 com Handover para pequenas e médias empresas",
   },
   {
-    id: '8',
-    model: 'AP 3000 AX OUTDOOR',
-    wifiStandard: 'Wi-Fi 6',
-    environment: 'Outdoor',
-    frequencyBands: ['2.4GHz', '5GHz'],
-    maxDevices: 350,
+    id: "8",
+    model: "AP 3000 AX OUTDOOR",
+    wifiStandard: "Wi-Fi 6",
+    environment: "Outdoor",
+    frequencyBands: ["2.4GHz", "5GHz"],
+    maxDevices: 256,
     maxThroughput: 1000,
     coverage: {
       indoor: 0,
-      outdoor: 450
+      outdoor: 450,
     },
     poe: true,
-    imageUrl: 'https://images.unsplash.com/photo-1636389657137-97aba60026a1?auto=format&fit=crop&q=80&w=600',
-    description: 'Access Point Wi-Fi 6 com Handover para pequenas e médias empresas para ambientes abertos'
-  }
+    imageUrl:
+      "https://backend.intelbras.com/sites/default/files/styles/medium/public/2023-04/ap-3000-ax-outdoor-frontal.png",
+    description:
+      "Access Point Wi-Fi 6 com Handover para pequenas e médias empresas para ambientes abertos",
+  },
 ];
