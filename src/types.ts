@@ -1,9 +1,26 @@
 export interface Switch {
-  id: string;
+  id: string | number;
   model: string;
   ports: number;
   hasPoe: boolean;
   hasManagement: boolean;
+  imageUrl: string;
+  description: string;
+}
+
+export interface AccessPoint {
+  id: string | number;
+  model: string;
+  wifiStandard: 'Wi-Fi 4' | 'Wi-Fi 5' | 'Wi-Fi 6' | 'Wi-Fi 6E';
+  environment: 'Indoor' | 'Outdoor';
+  frequencyBands: ('2.4GHz' | '5GHz' | '6GHz')[];
+  maxDevices: number;
+  maxThroughput: number; // in Mbps
+  coverage: {
+    indoor: number; // in square meters
+    outdoor: number; // in square meters
+  };
+  poe: boolean;
   imageUrl: string;
   description: string;
 }
@@ -288,4 +305,135 @@ export const mockSwitches: Switch[] = [
     description:
       "Switch gerenciável com protocolos de roteamento (camada 3) com 48 portas Gigabit e PoE e 4 portas SFP+ (10Gbps). Ideal para grandes empresas.",
   },
+];
+
+export const mockAccessPoints: AccessPoint[] = [
+  {
+    id: '1',
+    model: 'AP 310',
+    wifiStandard: 'Wi-Fi 4',
+    environment: 'Indoor',
+    frequencyBands: ['2.4GHz'],
+    maxDevices: 100,
+    maxThroughput: 100,
+    coverage: {
+      indoor: 200,
+      outdoor: 0
+    },
+    poe: true,
+    imageUrl: 'https://images.unsplash.com/photo-1632765854612-9b02b6ec2b15?auto=format&fit=crop&q=80&w=600',
+    description: 'Access Point Wi-Fi 4 para pequenos ambientes'
+  },
+  {
+    id: '2',
+    model: 'AP 360',
+    wifiStandard: 'Wi-Fi 4',
+    environment: 'Indoor',
+    frequencyBands: ['2.4GHz'],
+    maxDevices: 100,
+    maxThroughput: 100,
+    coverage: {
+      indoor: 400,
+      outdoor: 0
+    },
+    poe: true,
+    imageUrl: 'https://images.unsplash.com/photo-1647427017067-8f33c2159764?auto=format&fit=crop&q=80&w=600',
+    description: 'Access Point Wi-Fi 4 para médios ambientes'
+  },
+  {
+    id: '3',
+    model: 'AP 1250 AC MAX',
+    wifiStandard: 'Wi-Fi 5',
+    environment: 'Indoor',
+    frequencyBands: ['2.4GHz', '5GHz'],
+    maxDevices: 350,
+    maxThroughput: 500,
+    coverage: {
+      indoor: 450,
+      outdoor: 0
+    },
+    poe: true,
+    imageUrl: 'https://images.unsplash.com/photo-1636389657137-97aba60026a1?auto=format&fit=crop&q=80&w=600',
+    description: 'Access Point Wi-Fi 5 com Handover para pequenas e médias empresas'
+  },
+  {
+    id: '4',
+    model: 'AP 1250 AC OUTDOOR',
+    wifiStandard: 'Wi-Fi 5',
+    environment: 'Outdoor',
+    frequencyBands: ['2.4GHz', '5GHz'],
+    maxDevices: 350,
+    maxThroughput: 500,
+    coverage: {
+      indoor: 0,
+      outdoor: 450
+    },
+    poe: true,
+    imageUrl: 'https://images.unsplash.com/photo-1636389657137-97aba60026a1?auto=format&fit=crop&q=80&w=600',
+    description: 'Access Point Wi-Fi 5 com Handover para pequenas e médias empresas para ambientes externos'
+  },
+  {
+    id: '5',
+    model: 'AP 1350 AC-S',
+    wifiStandard: 'Wi-Fi 5',
+    environment: 'Indoor',
+    frequencyBands: ['2.4GHz', '5GHz'],
+    maxDevices: 350,
+    maxThroughput: 500,
+    coverage: {
+      indoor: 450,
+      outdoor: 0
+    },
+    poe: true,
+    imageUrl: 'https://images.unsplash.com/photo-1636389657137-97aba60026a1?auto=format&fit=crop&q=80&w=600',
+    description: 'Access Point Wi-Fi 5 com Handover para pequenas e médias empresas'
+  },
+  {
+    id: '6',
+    model: 'AP 1800 AX MAX',
+    wifiStandard: 'Wi-Fi 6',
+    environment: 'Indoor',
+    frequencyBands: ['2.4GHz', '5GHz'],
+    maxDevices: 350,
+    maxThroughput: 600,
+    coverage: {
+      indoor: 450,
+      outdoor: 0
+    },
+    poe: true,
+    imageUrl: 'https://images.unsplash.com/photo-1636389657137-97aba60026a1?auto=format&fit=crop&q=80&w=600',
+    description: 'Access Point Wi-Fi 6 com Handover para pequenas e médias empresas'
+  },
+  {
+    id: '7',
+    model: 'AP 3000 AX',
+    wifiStandard: 'Wi-Fi 5',
+    environment: 'Indoor',
+    frequencyBands: ['2.4GHz', '5GHz'],
+    maxDevices: 350,
+    maxThroughput: 1000,
+    coverage: {
+      indoor: 450,
+      outdoor: 0
+    },
+    poe: true,
+    imageUrl: 'https://images.unsplash.com/photo-1636389657137-97aba60026a1?auto=format&fit=crop&q=80&w=600',
+    description: 'Access Point Wi-Fi 6 com Handover para pequenas e médias empresas'
+  },
+  {
+    id: '8',
+    model: 'AP 3000 AX OUTDOOR',
+    wifiStandard: 'Wi-Fi 6',
+    environment: 'Outdoor',
+    frequencyBands: ['2.4GHz', '5GHz'],
+    maxDevices: 350,
+    maxThroughput: 1000,
+    coverage: {
+      indoor: 0,
+      outdoor: 450
+    },
+    poe: true,
+    imageUrl: 'https://images.unsplash.com/photo-1636389657137-97aba60026a1?auto=format&fit=crop&q=80&w=600',
+    description: 'Access Point Wi-Fi 6 com Handover para pequenas e médias empresas para ambientes abertos'
+  }
 ];
