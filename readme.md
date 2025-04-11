@@ -1,4 +1,4 @@
-# Project: Switch Filter Tool (English, Portuguese (BR) will be on the end of the file)
+# Project: Switch Filter Tool (English, Portuguese-BR will be on the end of the file)
 
 ## Overview
 
@@ -11,6 +11,7 @@ I really recomend use bolt for small tools, but beware they don't fully implemen
 ## Features
 
 - **Switch Filtering**: Easily filter switches based on their model.
+- **Access Point Filtering**: Easily filter access points based on their model.
 - **React-Based UI**: A dynamic and responsive user interface built with React.
 - **React Hooks**: Utilizes React Hooks for efficient state management and side effects.
 - **Vite-Powered**: Fast build times and hot module replacement with Vite.
@@ -64,6 +65,7 @@ Eu recomendo usar bolt para pequenas ferramentas, mas fique ciente que ela não 
 ## Features
 
 - **Switch Filtering**: Filtre facilmente os switches com base no modelo.
+- **Access Point Filtering**: Filtre facilmente os APs com base no modelo.
 - **React-Based UI**: Uma interface dinâmica e responsiva construída com React.
 - **React Hooks**: Utiliza de React Hooks para efeitos colaterais e gerenciamento de estado.
 - **Vite-Powered**: Construção rápida e trocas hot-swap com Vite.
