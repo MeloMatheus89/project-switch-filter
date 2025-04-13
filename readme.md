@@ -23,7 +23,7 @@ To get started with Project Bolt, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/MatheusMelo89/project-switch-filter.git
+   git clone https://github.com/MeloMatheus89/project-switch-filter.git
    ```
 2. **Navigate to the project directory**:
    ```bash
