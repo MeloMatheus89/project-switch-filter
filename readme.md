@@ -98,7 +98,7 @@ Após iniciar o servidor, você conseguirá acessar a página através do endere
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details. Todos os modelos listados são propriedades da Intelbras e apenas dela.
+Esse projeto é licenciado pela licença MIT. Veja a licença [LICENSE](LICENSE) para maiores detalhes. Todos os modelos listados são propriedades da Intelbras e apenas dela.
 
 ## Contato
 

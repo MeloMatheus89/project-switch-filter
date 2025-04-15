@@ -102,7 +102,7 @@ export const mockSwitches: Switch[] = [
     id: "8",
     model: "S1120G-PA",
     ports: 16,
-    hasPoe: false,
+    hasPoe: true,
     hasManagement: false,
     imageUrl:
       "https://backend.intelbras.com/sites/default/files/styles/medium/public/2024-06/s1120g-pa-01.png",
